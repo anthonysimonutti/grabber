@@ -18,10 +18,13 @@ setup(
 	url='https://github.com/anthonysimonutti/grabber',
 	packages=find_packages(),
 	dependency_links=[],
-	install_requires=[],
+	install_requires=[
+		'requests<=3.0.0',
+	],
 	entry_points={
 		'console_scripts': [
-			'grabber = grabber.run_grabber:main'
+			'grabber = grabber.run_grabber:main',
+			'test_grabber = tests.run_tests:unittest.main',
 		]
 	},
 	include_package_data=True,
