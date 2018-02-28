@@ -3,3 +3,4 @@
 dev/
 test-reports/*
 .venv-**
+**.log
