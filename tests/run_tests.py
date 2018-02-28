@@ -26,7 +26,7 @@ class TestGrabber(unittest.TestCase):
 	def test_get_one(self):
 		"""
 		Test get one functionality
-		"""asd
+		"""
 		self.fail('Could not get one.')
 
 
