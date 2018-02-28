@@ -20,6 +20,7 @@ setup(
 	dependency_links=[],
 	install_requires=[
 		'requests<=3.0.0',
+		'unittest-xml-reporting<=3.0.0',
 	],
 	entry_points={
 		'console_scripts': [

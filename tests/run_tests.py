@@ -3,6 +3,8 @@ Unit testing for the grabber api
 """
 
 import unittest
+import xmlrunner
+
 import requests
 
 
@@ -59,7 +61,7 @@ class TestGrabber(unittest.TestCase):
 
 
 def main():
-	unittest.main()
+	unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
 
 
 if __name__ == '__main__':
