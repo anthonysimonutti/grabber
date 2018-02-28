@@ -10,7 +10,7 @@ rm -rf pep8.log pyflakes.log .coverage coverage.xml coverage/
 
 pip install -e .
 
-PYTHONPATH=. python -m coverage run grabber/tests/run_tests.py
+PYTHONPATH=. python -m coverage run --source grabber grabber/tests/run_tests.py
 
 python -m coverage xml -o coverage.xml
 python -m coverage html -d coverage
