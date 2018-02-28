@@ -11,5 +11,5 @@ pip install -e .
 
 PYTHONPATH=. python -m grabber/tests/run_tests
 
-pep8 grabber > pep8.log || True
-pyflakes grabber > pyflakes.log || True
+pep8 grabber > pep8.log || true
+pyflakes grabber > pyflakes.log || true
