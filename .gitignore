@@ -4,3 +4,6 @@ dev/
 test-reports/*
 .venv-**
 **.log
+coverage/*
+.coverage
+coverage.xml
