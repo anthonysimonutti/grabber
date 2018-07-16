@@ -1,0 +1,9 @@
+**.egg-info
+**/*.pyc
+dev/
+test-reports/*
+.venv-**
+**.log
+coverage/*
+.coverage
+coverage.xml
